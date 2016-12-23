@@ -10,8 +10,23 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
+    
+    
+    func showMessage(message: String) {
+        let alertController = UIAlertController(title: "FireSafe", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        let dismissAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { (action) -> Void in
+        }
+        
+        alertController.addAction(dismissAction)
+        
+        let pushedViewControllers = (self.window?.rootViewController as! UINavigationController).viewControllers
+        let presentedViewController = pushedViewControllers[pushedViewControllers.count - 1]
+        
+        presentedViewController.present(alertController, animated: true, completion: nil)
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83901DF91E0A62D800C48FFB /* SendAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83901DF81E0A62D800C48FFB /* SendAlertVC.swift */; };
 		83E6F82E1E024E0500E31606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6F82D1E024E0500E31606 /* AppDelegate.swift */; };
 		83E6F8301E024E0500E31606 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6F82F1E024E0500E31606 /* FirstViewController.swift */; };
 		83E6F8321E024E0500E31606 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6F8311E024E0500E31606 /* SecondViewController.swift */; };
 		83E6F8351E024E0600E31606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E6F8331E024E0600E31606 /* Main.storyboard */; };
 		83E6F8371E024E0600E31606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E6F8361E024E0600E31606 /* Assets.xcassets */; };
 		83E6F83A1E024E0600E31606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E6F8381E024E0600E31606 /* LaunchScreen.storyboard */; };
+		83E6F8421E03443000E31606 /* hlutrzcvkqg-stephen-radford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83E6F8411E03443000E31606 /* hlutrzcvkqg-stephen-radford.jpg */; };
+		83E6F8461E03A2C200E31606 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6F8451E03A2C200E31606 /* ModalViewController.swift */; };
+		83ED71C51E04AD340021335D /* firesafe_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 83ED71C41E04AD340021335D /* firesafe_logo.png */; };
+		83ED71C71E04AE040021335D /* firesafe_logo_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 83ED71C61E04AE040021335D /* firesafe_logo_transparent.png */; };
+		83ED71C91E04B2200021335D /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED71C81E04B2200021335D /* AddContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83901DF81E0A62D800C48FFB /* SendAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendAlertVC.swift; sourceTree = "<group>"; };
 		83E6F82A1E024E0500E31606 /* FireSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6F82D1E024E0500E31606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83E6F82F1E024E0500E31606 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		83E6F8361E024E0600E31606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E6F8391E024E0600E31606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E6F83B1E024E0600E31606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E6F8411E03443000E31606 /* hlutrzcvkqg-stephen-radford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hlutrzcvkqg-stephen-radford.jpg"; sourceTree = "<group>"; };
+		83E6F8451E03A2C200E31606 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		83ED71C41E04AD340021335D /* firesafe_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firesafe_logo.png; sourceTree = "<group>"; };
+		83ED71C61E04AE040021335D /* firesafe_logo_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firesafe_logo_transparent.png; sourceTree = "<group>"; };
+		83ED71C81E04B2200021335D /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				83E6F82D1E024E0500E31606 /* AppDelegate.swift */,
 				83E6F82F1E024E0500E31606 /* FirstViewController.swift */,
+				83E6F8451E03A2C200E31606 /* ModalViewController.swift */,
+				83ED71C81E04B2200021335D /* AddContactViewController.swift */,
 				83E6F8311E024E0500E31606 /* SecondViewController.swift */,
+				83901DF81E0A62D800C48FFB /* SendAlertVC.swift */,
 				83E6F8331E024E0600E31606 /* Main.storyboard */,
 				83E6F8361E024E0600E31606 /* Assets.xcassets */,
 				83E6F8381E024E0600E31606 /* LaunchScreen.storyboard */,
 				83E6F83B1E024E0600E31606 /* Info.plist */,
+				83ED71C41E04AD340021335D /* firesafe_logo.png */,
+				83ED71C61E04AE040021335D /* firesafe_logo_transparent.png */,
+				83E6F8411E03443000E31606 /* hlutrzcvkqg-stephen-radford.jpg */,
 			);
 			path = FireSafe;
 			sourceTree = "<group>";
@@ -129,6 +147,9 @@
 			files = (
 				83E6F83A1E024E0600E31606 /* LaunchScreen.storyboard in Resources */,
 				83E6F8371E024E0600E31606 /* Assets.xcassets in Resources */,
+				83ED71C71E04AE040021335D /* firesafe_logo_transparent.png in Resources */,
+				83ED71C51E04AD340021335D /* firesafe_logo.png in Resources */,
+				83E6F8421E03443000E31606 /* hlutrzcvkqg-stephen-radford.jpg in Resources */,
 				83E6F8351E024E0600E31606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83ED71C91E04B2200021335D /* AddContactViewController.swift in Sources */,
+				83901DF91E0A62D800C48FFB /* SendAlertVC.swift in Sources */,
+				83E6F8461E03A2C200E31606 /* ModalViewController.swift in Sources */,
 				83E6F8321E024E0500E31606 /* SecondViewController.swift in Sources */,
 				83E6F82E1E024E0500E31606 /* AppDelegate.swift in Sources */,
 				83E6F8301E024E0500E31606 /* FirstViewController.swift in Sources */,
@@ -304,6 +328,7 @@
 				83E6F8401E024E0600E31606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
